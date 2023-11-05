@@ -83,26 +83,3 @@ double solucion({required String cadena}) {
   print(resultado);
   return resultado;
 }
-
-bool operadores({required String operador}) {
-  final RegExp rangoOperadores = RegExp(r'[+-*/]');
-  return rangoOperadores.hasMatch(operador);
-}
-
-
-
-    // for (int ii = 0; ii < operadores.length; ii++) {
-    //   switch (operadores[ii]) {
-    //     case '+':
-    //       break;
-    //     case '-':
-    //       break;
-    //     case '*':
-    //       break;
-    //     case '/':
-    //       break;
-    //     default:
-    //       print('Error el archivo esta mal redactado');
-    //       return [];
-    //   }
-    // }
